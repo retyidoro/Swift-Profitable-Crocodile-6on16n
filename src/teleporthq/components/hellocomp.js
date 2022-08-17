@@ -49,15 +49,15 @@ const Hellocomp = (props) => {
 Hellocomp.defaultProps = {
   image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
   image_alt: 'image',
-  rootClassName: '',
   heading: 'Heading',
+  rootClassName: '',
 }
 
 Hellocomp.propTypes = {
   image_src: PropTypes.string,
   image_alt: PropTypes.string,
-  rootClassName: PropTypes.string,
   heading: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default Hellocomp
